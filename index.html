@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .video-container {
+            flex: 1;
+        }
+        .details-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+        .car-name {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ff4500;
+        }
+        .details {
+            list-style-type: none;
+            padding: 0;
+        }
+        .details li {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video autoplay loop controls width="50%">
+                <source src="WhatsApp Video 2024-12-24 at 17.45.55_a18834d6.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="details-container">
+            <div class="car-name">Lotus Emira </div>
+            <ul class="details">
+                <li>Horsepower: 360 hp (2.0L turbocharged inline-4) or 400 hp (3.5L supercharged V6).</li>
+                <li>Torque: 430 Nm (2.0L turbocharged engine) or 420 Nm (3.5L V6 engine).</li>
+                <li>Transmission: 6-speed manual or 6-speed automatic (depending on engine choice).</li>
+                <li>0-100 km/h (0-62 mph): 4.3 seconds (V6 version).</li>
+            </ul>
+           
+        </div>
+    </div>
+</body>
+</html>
